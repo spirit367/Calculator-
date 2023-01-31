@@ -1,2 +1,2 @@
-# Calculator-
+# Calculator
 Odin project practice: calculator 
