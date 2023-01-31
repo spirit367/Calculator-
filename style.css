@@ -1,0 +1,117 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('67.jpeg')no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cal-container {
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    background: url('123.jpeg')no-repeat center center/cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: .5rem;
+    border-bottom: 11px rgb(92, 92, 92) solid;
+    border-right: 11px rgb(107, 107, 107) solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgb(48, 48, 48),
+            inset 2px 2px 3px 1px rgb(90, 90, 90),
+            inset -2px -2px 3px 1px rgb(90, 90, 90);
+}
+
+.item:first-child {
+    grid-column: 1 / span 4;
+}
+
+.item:nth-child(18) {
+    grid-column: 1 / span 3;
+}
+#display {
+   
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 3px rgb(180, 180, 180) solid;
+    height: 90px;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    box-shadow: inset 4px 4px 7px 1px rgb(99, 99, 99);
+                
+    
+}
+#display > p {
+    
+    height: 40%;
+    font-size: 40px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+    
+    
+    
+}
+
+.item {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+button {
+    background: url('45.jpeg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    border: 1.8px rgb(64, 64, 64) solid;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    transition: all .1s ease-in;
+    box-shadow: 3px 3px 6px 1.5px  rgb(48, 48, 48),
+                inset -4px -4px 7px 1.5px rgb(48, 48, 48),
+                inset .5px .5px 7px 1.5px rgb(64, 64, 64);
+}
+
+h4 {
+    
+   font-size: 35px;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.item-eq {
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    
+    cursor: pointer;
+}
+button:active {
+    transform: translate(1px, 1px);;
+    
+}
+
+.text-btn {
+    text-align: center;
+}
+

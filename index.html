@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="cal-container">
+        <div id="display" class="item"><p id="finalDisplay"></p></div>
+        <div class="item"><button class="math" value="+" onclick="operation()"><h4>+</h4></button></div>
+        <div class="item"><button class="math" value="-" onclick="operation()"><h4>-</h4></button></div>
+        <div class="item"><button class="math" value="*" onclick="operation()"><h4>×</h4></button></div>
+        <div class="item"><button class="math" value="/" onclick="operation()"><h4>/</h4></button></div>
+
+        <div class="item"><button class="text-btn btn-second" value="1"><h4>1</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="2"><h4>2</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="3"><h4>3</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="4"><h4>4</h4></button></div>
+
+        <div class="item"><button class="text-btn btn-second" value="5"><h4>5</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="6"><h4>6</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="7"><h4>7</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="8"><h4>8</h4></button></div>
+
+        <div class="item"><button class="text-btn btn-second" value="9"><h4>9</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="0"><h4>0</h4></button></div>
+        <div class="item"><button class="minus" onclick="minusDigit()"><h4>C</h4></button></div>
+        <div class="item"><button onclick="deletion()"><h4>Dl</h4></button></div>
+        
+        <div class="item"><button class = "item-eq" onclick="operate(digit1,digit2,operator)"><h4>=</h4></button></div>
+        <div class="item"><button class="text-btn btn-second" value="."><h4>.</h4></button></div>
+        
+    </div>
+    <script src="main2.js"></script>
+</body>
+
+</html>
